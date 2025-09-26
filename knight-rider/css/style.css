@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+ul>li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#epizodok {
+    width: 640px;
+    position: center;
+}
+
+#epizodok > li {
+  display: block;
+  margin-top: 20px;
+  color: #7f170e;
+  background-color: #ff7f50;
+  text-align: center;
+  border: 10px solid;
+  border-color: #ff7f50;
+}
+
+#epizodok > li:nth-child(2) {
+  background-color: #a7cc41;
+  border-color: #a7cc41;
+}
+
+#epizodok > li:nth-child(3) {
+  background-color: #529cfc;
+  border-color: #529cfc;
+}
+
+#epizodok > li:nth-child(4) {
+  background-color: #ddd673;
+  border-color: #ddd673;
+}
+
+#epizodok > li > ul > li {
+  padding: 20px;
+  text-align: right;
+}
+
+li[lang^="hu"],
+li[lang^="en"] {
+  text-align: left;
+}
+
+li > p {
+  margin-left: 18px;
+  border-left: 10px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+  padding-left: 10px;
+}
+
+#epizodok>li>ul>li:nth-child(odd) {
+  background-color: #999999;
+  color: #000000;
+}
+
+#epizodok>li>ul>li:nth-child(odd)>ul>li[lang^="hu"] {
+  color: #043904;
+}
+
+#epizodok>li>ul>li:nth-child(odd)>ul>li[lang^="en"] {
+  color: #680101;
+}
+
+#epizodok>li>ul>li:nth-child(even) {
+  background-color: #777777;
+  color: #FFF;
+}
+
+#epizodok>li>ul>li:nth-child(even)>ul>li[lang^="hu"] {
+  color: #7aea7a;
+}
+
+#epizodok>li>ul>li:nth-child(even)>ul>li[lang^="en"] {
+  color: #ff6e6e;
+}
+
