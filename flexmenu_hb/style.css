@@ -1,0 +1,47 @@
+*{
+    font-family: Calibri;
+    margin: 0;	
+}
+
+body{
+    background: #ddd;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: black;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: rgb(153,17,17);
+}
+
+@media screen and (width >= 768px) {
+
+    ul {
+        display: flex;
+    }
+    ul li{
+        /*flex-grow flex-shrink flex-basis*/
+        flex: 1 1 0;
+    }
+}

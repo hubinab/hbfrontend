@@ -1,0 +1,33 @@
+.grid-container {
+  background-color: #54108C;
+  padding: 10px;
+  display: grid;
+  gap: 10px 10px;
+  grid-template-areas: 
+  "a a a a a a"
+  "b c c c d d"
+  "b e e e e e";
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.one{
+  grid-area: a;
+}
+.two{
+  grid-area: b;
+}
+.three{
+  grid-area: c;
+}
+.four{
+  grid-area: d;
+}
+.five{
+  grid-area: e;
+}
