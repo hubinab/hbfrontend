@@ -1,0 +1,48 @@
+body{
+    background-color: #b8e3e9;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+
+main{
+    width: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.items{
+    align-content: center; 
+}
+
+.item1{
+    order: 1;
+}
+.item2{
+    order: 2;
+}
+.item3{
+    order: 3;
+}
+.item4{
+    order: 4;
+}
+.item5{
+    order: 5;
+}
+.item6{
+    order: 6;
+}
+.item7{
+    order: 7;
+}
+.item8{
+    order: 8;
+}
+.item9{
+    order: 9;
+}
